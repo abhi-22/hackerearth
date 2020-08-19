@@ -1,6 +1,4 @@
-/*-----------------------------------
-    Small devices (landscape phones, 576px and up)
-------------------------------------*/
+
 @media (min-width: 576px) {
   .top-header {
     padding: 25px 0 15px;
@@ -23,9 +21,6 @@
 }
 <iframe height="300"; width="200"; >
 
-/*-----------------------------------
-    Medium devices (tablets, 768px and up)
-------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
     width: 100px;

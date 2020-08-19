@@ -51,53 +51,92 @@ header::after {
 .navbar-collapse .nav-link:hover {
   color: #ee1515;
 }
-
-
-.blurb h2 {
-   color: #F8F9F8 ;
-   font-weight: 100;
-   font-size: 2.5rem;
-   font-family: 'Pangolin', cursive;
+.pricing-table {
+  padding: 100px 0;
 }
 
-.blurb p {
-    color:#34E4F9 ;
-    font-weight: 150;
-    font-size: 1.5rem;
-    line-height: 2;
-    font-family: 'Dosis', sans-serif;
+.single-pricing {
+  padding: 65px 0 40px;
+  margin-top: 23px;
+  color: #fff;
+  background: #26264b;
+  border: 0px solid #fff;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.2s ease-in-out;
 }
 
-.content {
-    margin-top: 100px;
-    margin-bottom: 100px;
+.single-pricing span {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 6px 15px;
+  border-radius: 15px;
+  background-color: transparent;
+  position: absolute;
+  top: 28px;
+  right: 6px;
+  transition: all 0.2s ease-in-out;
 }
 
-
-#headingGroup span {
-    color: #EA1C2C;
+.single-pricing h2 {
+  margin-bottom: -5px;
 }
 
-#headingGroup h1 {
-    font-weight: 100;
-    font-size: 4rem;
+.single-pricing .desc {
+  color: #9d9d9d;
+  padding-bottom: 30px;
+  margin-bottom: 32px;
+  border-bottom: 2px solid #2f2f2f;
+  transition: all 0.2s ease-in-out;
 }
 
-.navbar.scrolled {
-    background: rgb(222,192,222);
-    transition: background 500ms;
+.single-pricing .price {
+  font-size: 2rem;
+  margin-bottom: 8px;
 }
 
-@media (max-width: 1200px) {
-    #headingGroup h1 {
-        font-weight: 100;
-        font-size: 3rem;
-    }
-    .blurb h2 {
-        font-size: 2rem;
-    }
+.single-pricing p {
+  color: #ddd;
 }
 
+.single-pricing p:last-of-type {
+  margin-bottom: 25px;
+}
+
+.single-pricing svg {
+  width: 170px;
+  position: absolute;
+  top: -45px;
+  right: -60px;
+  z-index: -1;
+  transition: all 0.5s ease-in-out;
+}
+
+.single-pricing:hover {
+  border: 4px solid #fff;
+  box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.16);
+  margin: 19px 0 -4px;
+}
+
+.single-pricing:hover span {
+  background-color: #26264b;
+}
+
+.single-pricing:hover .desc {
+  color: #fff;
+  border-bottom: 2px solid rgba(245, 245, 245, 0.322);
+}
+
+.single-pricing:hover svg {
+  width: 500%;
+  top: -200%;
+  right: -50%;
+}
+
+.single-pricing:hover .btn {
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
 
 
 
