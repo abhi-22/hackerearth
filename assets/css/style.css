@@ -368,6 +368,9 @@ header::after {
     opacity: 1;
     transform: scale(1);
   }
+  #youtube iframe{
+    width: 350px;
+  }
 }
 @media (min-width: 992px) {
   .card {
@@ -377,5 +380,9 @@ header::after {
 
 .card-img {
   text-align: center;
-  flex-shrink: 0; }
+  flex-shrink: 0;
+ }
+ #youtube iframe{
+   width: 600px;
+ }
 }
