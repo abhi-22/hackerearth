@@ -251,6 +251,23 @@ header::after {
   font-size: 2.5em;
   color: #343AF9;
  }
+ 
+.foot1{
+  padding: 35px 0;
+  background-color: #ee1515;
+  color: #26264b;
+}
+
+.foot1 a {
+  color: #fff;
+}
+
+.foot1 a:last-child {
+  margin-left: 30px;
+}
+.foot{
+  color: #fff;
+}
 
 
   
