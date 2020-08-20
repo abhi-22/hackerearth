@@ -1,4 +1,6 @@
-
+/*-----------------------------------
+    Small devices (landscape phones, 576px and up)
+------------------------------------*/
 @media (min-width: 576px) {
   .top-header {
     padding: 25px 0 15px;
@@ -17,10 +19,11 @@
     margin-bottom: 0;
     margin-right: 25px;
   }
-
 }
-<iframe height="300"; width="200"; >
 
+/*-----------------------------------
+    Medium devices (tablets, 768px and up)
+------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
     width: 100px;
@@ -32,7 +35,7 @@
     margin-right: 12px;
   }
   .navbar-collapse .nav-link {
-    font-size: 1.25rem;
+    font-size: 0.875rem;
     position: relative;
   }
   .navbar-collapse .nav-link::before {
@@ -132,12 +135,6 @@
     align-self: flex-end;
     margin-right: 30px;
   }
-   #youtube{
-     width="600";
-     height="315";
-  }
-  
-
 }
 
 /*-----------------------------------
@@ -166,11 +163,6 @@
   .title h1 {
     font-size: 48px;
   }
-  #youtube{
-     width="700";
-     height="315";
-  }
-}
 }
 
 /*-----------------------------------
@@ -195,9 +187,5 @@
     right: 0;
     height: 100%;
     padding: 75px 0;
-  }
-  #youtube{
-     width="700";
-     height="315";
   }
 }

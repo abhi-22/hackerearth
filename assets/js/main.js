@@ -79,7 +79,7 @@
             });
         }
 
-       
+        // == Clients Slider== //
         if ($('.clients-slider').length) {
             var swiper = new Swiper('.clients-slider', {
                 autoplay: {
