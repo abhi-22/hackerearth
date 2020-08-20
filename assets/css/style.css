@@ -323,12 +323,13 @@ header::after {
 }
 .cid-qZjDO468lv .card-title {
   display: inline;
-  color: #000000;
+  color: #ff4d4d;
   margin: 0;
   padding-left: 25px;
   line-height: 1.3;
   text-align: center;
 }
+
 .cid-qZjDO468lv .card-img {
   overflow: hidden;
   position: relative;
@@ -369,10 +370,17 @@ header::after {
     transform: scale(1);
   }
   #youtube iframe{
-    width: 350px;
+    width: 400px;
   }
 .col-12{
-  max-width: 65%;
+  max-width: 60%;
+}
+.cid-qZjDO468lv .card-box a{
+  display: block;
+  padding-left: 30px;
+}
+.cid-qZjDO468lv .card-box h4{
+  padding-left: 10px;
 }
 }
 @media (min-width: 992px) {
