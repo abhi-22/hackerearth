@@ -539,6 +539,13 @@ text-align: left;
 .ic{
   margin-left: 60px;
 }
+#youtube {
+  position: relative;
+  padding-bottom: 56.25px;
+  padding-top: 35px;
+  
+  overflow: hidden;
+}
 @media (max-width: 576px) {
   .cid-qZjDO468lv .ico-wrap {
     opacity: 1;
@@ -546,6 +553,7 @@ text-align: left;
   }
   #youtube iframe{
     width: 400px;
+
   }
 .cid-qZjDO468lv .card-box a{
   display: block;
