@@ -322,7 +322,7 @@ header::after {
 }
 .ar_{
   margin-top: 0;
-  
+
   padding: 50px;
 }
 .ar_c{
@@ -343,7 +343,7 @@ header::after {
   align-items: center;
 }
 .ar_h1{
-  background-color:#ee1515; 
+  background-color:#ee1515;
   color: whitesmoke;
 font-size: 50px;
 padding: 25px;
@@ -551,7 +551,15 @@ text-align: left;
   display: block;
   padding-left: 30px;
 }
-
+.display-7{
+  font-size: 15px;
+}
+.display-4{
+  font-size: 10px;
+}
+.fa{
+  font-size: 13px;
+}
 }
 @media (min-width: 992px) {
   .card {
