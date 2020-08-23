@@ -364,8 +364,8 @@ padding: 25px;
   display: none;
 }
 .app_img{
-  width: auto;
-  height: 250px;
+   max-width: 290px;
+  max-height: 250px;
 }
 .app_back_btn{
   width: auto;
