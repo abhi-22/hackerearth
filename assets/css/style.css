@@ -320,9 +320,15 @@ header::after {
   align-items: center;
   margin: 10px;
 }
+/* .app_c_titl{
+  background-color: #ee1515;
+  color: whitesmoke;
+  margin: auto 0;
+  padding: 5px;
+} */
 .ar_{
   margin-top: 0;
-
+  
   padding: 50px;
 }
 .ar_c{
@@ -343,7 +349,7 @@ header::after {
   align-items: center;
 }
 .ar_h1{
-  background-color:#ee1515;
+  background-color:#ee1515; 
   color: whitesmoke;
 font-size: 50px;
 padding: 25px;
@@ -355,9 +361,12 @@ padding: 25px;
 #music{
   display: none;
 }
+#design{
+  display: none;
+}
 .app_img{
-  width: 300px;
-  height: 300px;
+  width: auto;
+  height: 250px;
 }
 .app_back_btn{
   width: auto;
@@ -367,11 +376,20 @@ padding: 25px;
 .app_titl{
   font-size: 30px;
   color: #ee1515;
-
 }
-
-
-
+#app_nav{
+  background-color:#67183F;
+}
+.app_car{
+  height: 300px;
+  width: 75%;
+}
+#archi_btn{
+  margin-bottom: 5px;
+}
+.app_car_ind{
+  position: relative;
+}
 
 
 

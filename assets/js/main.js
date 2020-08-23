@@ -79,7 +79,7 @@
             });
         }
 
-        // == Clients Slider== //
+       
         if ($('.clients-slider').length) {
             var swiper = new Swiper('.clients-slider', {
                 autoplay: {
@@ -127,3 +127,67 @@
 
     });
 })(jQuery)
+var archi=document.querySelector("#archi");
+var archi_btn=document.querySelector("#archi_btn");
+archi_btn.addEventListener("click", function(){
+    archi.style.display=" block";
+    music.style.display="none";
+    design.style.display="none";
+})
+
+var archi_back_btn=document.querySelector("#archi_back_btn");
+archi_back_btn.addEventListener("click", function(){
+    archi.style.display="none";})
+
+
+    var music=document.querySelector("#music");
+var music_btn=document.querySelector("#music_btn");
+music_btn.addEventListener("click", function(){
+    music.style.display=" block";
+archi.style.display="none";
+design.style.display="none"})
+
+var music_back_btn=document.querySelector("#music_back_btn");
+music_back_btn.addEventListener("click", function(){
+    music.style.display="none";})
+
+    var design=document.querySelector("#design");
+var design_btn=document.querySelector("#design_btn");
+design_btn.addEventListener("click", function(){
+    design.style.display=" block";
+    music.style.display="none";
+    archi.style.display="none"
+})
+
+var design_back_btn=document.querySelector("#design_back_btn");
+design_back_btn.addEventListener("click", function(){
+    design.style.display="none";})
+
+
+
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+      
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+      
+            // Store hash
+            var hash = this.hash;
+      
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+      
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+      });
+
+
