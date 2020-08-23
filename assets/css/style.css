@@ -613,7 +613,7 @@ text-align: left;
   margin-top: 50px;
 }
 .defination {
-  padding: 80px 10px;
+  padding: 0px 10px;
   background-color: #fafafa;
 }
 
@@ -645,6 +645,7 @@ text-align: left;
   position: absolute;
   bottom: 0;
   right: 0;
+  margin-bottom: 10px;
 }
 
 .defination-small {
