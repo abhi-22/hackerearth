@@ -10,7 +10,9 @@ header {
 header a {
   color: #fff;
 }
-
+.active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color:#BC7DFB;
+}
 header::after {
   content: "";
   width: 100%;
@@ -240,6 +242,7 @@ header::after {
  }
 
 }
+/*******************************application page***********************************************************/
 .f_c_l{
   margin-top: 100px;
   margin-bottom: 50px;
@@ -361,7 +364,7 @@ padding: 25px;
   position: relative;
 }
 
-
+/*********************************footer**************************************************************/
 /**
 .cid-qZjDO468lv .card-box a{
   text-decoration: none;
@@ -597,4 +600,50 @@ text-align: left;
  .cid-qZjDO468lv .card-box a{
    padding: 25px;
  }**/
+}
+/**********************************************************************************************/
+#basic{
+  margin-top: 50px;
+}
+.defination {
+  padding: 80px 10px;
+  background-color: #fafafa;
+}
+
+.defination p {
+  margin: 35px 0 53px;
+}
+
+.defination .media i {
+  font-size: 24px;
+  color: #ee1515;
+}
+
+.defination .media h5 {
+  text-transform: uppercase;
+  color: #26264b;
+}
+
+.defination .btn {
+  margin-top: 80px;
+}
+
+.defination-img {
+  position: relative;
+  height: 530px;
+  margin-top: 60px;
+}
+
+.defination-big {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.defination-small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 25px 0 0;
+  background-color: #fff;
 }
