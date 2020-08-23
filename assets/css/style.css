@@ -28,6 +28,12 @@ header::after {
   text-transform: uppercase;
 }
 
+.contact {
+  font-size: 12px;
+}
+
+
+
 
 .navbar-brand h1 {
   margin: 0;
@@ -285,6 +291,8 @@ header::after {
 .a_c_j{
   align-content: center;
   margin-top: auto;
+  margin-left:0;
+  margin-right:0;
   width: 100%;
   background-color:   #67183F;
   border-bottom: 25px solid #ee1515;
@@ -305,8 +313,7 @@ header::after {
   padding: 50px;
 }
 .ar_c{
-  /**width: 80%;
-  margin: 20px auto;**/
+  
   color: whitesmoke;
   background-color: #67183F; ;
 }
@@ -339,6 +346,7 @@ padding: 25px;
 }
 .app_img{
   max-width: 290px;
+   max-width: 290px;
   max-height: 250px;
 }
 .app_back_btn{
