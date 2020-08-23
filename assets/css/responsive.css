@@ -3,8 +3,14 @@
 ------------------------------------*/
 @media (max-width:575px) {
   .mona{
-    padding-bottom: 10px;
+    padding-bottom: 40px;
 
+  }
+  .row1 p{
+    padding-top: 30px;
+  }
+  .row1 h1{
+    padding-top: 10px;
   }
 }
 
