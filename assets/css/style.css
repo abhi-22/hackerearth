@@ -680,5 +680,6 @@ text-align: left;
   margin-bottom: 15px;
 }
 .pic2{
-  max-height: 290px;
+  max-height: 250px;
+  margin-bottom: 5px;
 }
