@@ -8,9 +8,21 @@
   }
   .row1 p{
     padding-top: 30px;
+    margin-bottom: 220px;
   }
   .row1 h1{
     padding-top: 10px;
+    margin-top: 30px;
+  }
+  .mona iframe{
+    width: 300px;
+    padding-left: 10px;
+  }
+  .sc iframe{
+    height: 400px;
+    width: 300px;
+    margin-top: 70px;
+    margin-bottom: 20px;
   }
 }
 
