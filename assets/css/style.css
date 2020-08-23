@@ -309,11 +309,11 @@ header::after {
 } */
 .ar_{
   margin-top: 0;
-  
+
   padding: 50px;
 }
 .ar_c{
-  
+
   color: whitesmoke;
   background-color: #67183F; ;
 }
@@ -329,7 +329,7 @@ header::after {
   align-items: center;
 }
 .ar_h1{
-  background-color:#ee1515; 
+  background-color:#ee1515;
   color: whitesmoke;
 font-size: 50px;
 padding: 25px;
@@ -682,4 +682,12 @@ text-align: left;
 }
 .pic2{
   max-height: 290px;
+}
+.row1{
+  margin-top: 100px;
+}
+.row1 p{
+  width: 100%;
+  height: 100%;
+  padding-top: 150px;
 }
