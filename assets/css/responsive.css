@@ -4,6 +4,7 @@
 @media (max-width:575px) {
   .mona{
     padding-bottom: 20px;
+    padding-top: 120px;
 
   }
   .row1 p{
@@ -12,7 +13,6 @@
     font-size: 15px;
   }
   .row1 h1{
-    padding-top: 10px;
     margin-top: 70px;
     margin-bottom: 0;
   }
@@ -25,6 +25,9 @@
     width: 350px;
     margin-top: 70px;
     margin-bottom: 20px;
+  }
+  .scr{
+    padding-bottom: 20px;
   }
 }
 
