@@ -4,12 +4,14 @@
 @media (max-width:575px) {
   .mona{
     padding-bottom: 20px;
-    padding-top: 120px;
 
+  }
+  .row1 .pp p{
+    margin-bottom: 50px;
   }
   .row1 p{
     padding-top: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 220px;
     font-size: 15px;
   }
   .row1 h1{
@@ -28,6 +30,9 @@
   }
   .scr{
     padding-bottom: 20px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
   }
 }
 

@@ -424,7 +424,7 @@ text-align: left;
     z-index: -1;
     transition: all 0.2s ease-in-out;
   }
- 
+
 .list-item1{
   display: inline;
 }
@@ -454,7 +454,7 @@ text-align: left;
   margin-left: 5px;
 }
 @media (max-width: 576px) {
-  
+
   #youtube iframe{
     width: 400px;
 
@@ -491,7 +491,7 @@ text-align: left;
  #youtube iframe{
    width: 600px;
  }
- 
+
 }
 /**********************************************************************************************/
 #basic{
@@ -582,6 +582,7 @@ text-align: left;
   text-align: center;
       font-size: 30px;
       font-weight: 600;
+      margin-top: 20px;
 }
 .mona{
   padding-top: 0;
@@ -591,12 +592,12 @@ text-align: left;
  iframe {
         display: block;
         width: 100vw;
-        height: 100vh;
         max-width: 100%;
         margin: 0;
         padding: 0;
         border: 0 none;
         box-sizing: border-box;
+        margin-top: 20px;
     }
 .pic1{
   max-width: 300;
