@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Fun with phi</title>
+        <title>Fun With φ</title>
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i%7CRajdhani:400,600,700"
             rel="stylesheet">
@@ -44,6 +44,13 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item "><a class="nav-link" href="hack.html">THEORY</a></li>
                         <li class="nav-item active"><a class="nav-link" href="applicationsN.html">APPLICATIONS</a></li>
+                        <div class="theme-switch-wrapper nav-item">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox" />
+                                <div class="slider round"></div>
+                          </label>
+                          <em>Dark Mode</em>
+                        </div>
 
 
                     </ul>
@@ -81,14 +88,7 @@
           </div>
         </div>
 
-        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a> -->
+        
 
         <ol class="carousel-indicators app_car_ind">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -112,7 +112,10 @@
               <h5 class="card-title">Music</h5>
               <p class="card-text">In the music of the twentieth century the golden ratio has found fertile ground spreading out of all proportion: Debussy, Stockhausen, Bartók, Stravinsky,
                    are just some of the best known names that have voluntarily chosen the use of these magical proportions.</p>
-              <a href="#music" class="btn btn-primary" id="music_btn">Explore</a>
+              <div class="button">
+                  <a href="#music" class="btn btn-primary" id="music_btn">Explore</a>
+              </div>     
+              
             </div>
         </div>
         <div class="card a_c_j_c " style="width: 18rem;"data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
@@ -128,7 +131,7 @@
             <div class="card-body">
               <h5 class="card-title">Nature</h5>
               <p class="card-text">The golden ratio is sometimes called the "divine proportion," because of its frequency in the natural world. The number of petals on a flower, for instance, will often be a Fibonacci number. The seeds of sunflowers and pine cones twist in opposing spirals of Fibonacci numbers.</p>
-              <a href="#" class="btn btn-primary">Explore</a>
+              <a href="#nature" class="btn btn-primary" id="nature_btn">Explore</a>
             </div>
         </div>
 
@@ -317,7 +320,7 @@ Mozart’s based many of his works on the Golden Ratio – especially his piano 
                </div>
            </div>
            <div style="text-align:center">
-               <a href="#app_nav" class="btn btn-primary app_back_btn" id="design_back_btn">Back to Top</a>
+               <a href="#app_nav" class="btn btn-primary app_back_btn" id="nature_back_btn">Back to Top</a>
            </div>
        </div>
    </div>
@@ -392,13 +395,13 @@ Mozart’s based many of his works on the Golden Ratio – especially his piano 
 
     </footer>
 
-
     <script src="assets/js/jquery-3.3.1.js"></script>
     <script src="assets/js/bootstrap.bundle.js"></script>
     <script src="assets/js/loaders.css.js"></script>
     <script src="assets/js/aos.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/js/lightgallery-all.min.js"></script>
+    <script src="assets/js/main2.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>

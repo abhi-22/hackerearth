@@ -6,13 +6,15 @@
     padding-bottom: 20px;
 
   }
+  .row1 .pp p{
+    margin-bottom: 70px;
+  }
   .row1 p{
     padding-top: 30px;
-    margin-bottom: 120px;
+    margin-bottom: 280px;
     font-size: 15px;
   }
   .row1 h1{
-    padding-top: 10px;
     margin-top: 70px;
     margin-bottom: 0;
   }
@@ -25,6 +27,12 @@
     width: 350px;
     margin-top: 70px;
     margin-bottom: 20px;
+  }
+  .scr{
+    padding-bottom: 20px;
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 10px;
   }
 }
 
