@@ -64,7 +64,7 @@
 ------------------------------------*/
 @media (min-width: 768px) {
   .navbar-brand img {
-    width: 100px;
+    width: 130px;
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 10px;

@@ -537,7 +537,7 @@ text-align: left;
   position: absolute;
   bottom: 0;
   left: 0;
-  padding: 25px 25px 0 0;
+  padding: 25px 25px  0 25px;
   background-color: #fff;
 }
 .cta2 {
@@ -608,6 +608,8 @@ padding-top: 130px;
 }
 /* Dark mode code begins*/
 
+/* Dark mode code begins*/
+
 
 :root {
   --primary-color: #302AE6;
@@ -620,8 +622,14 @@ padding-top: 130px;
   --primary-color: #9A97F3;
   --secondary-color: #818cab;
   --font-color: #e1e1ff;
-  --bg-color: #161625;
+  --bg-color:#15040B;
   --heading-color: #818cab;
+  --img: url("../images/dark.bg.jpg") no-repeat center;
+  --textcol: #F1F112;
+  --textcol1:#F9A96A ;
+  --textcol2:#6AEEF9 ;
+  --textcol3:#b34d4d;
+  --textcol4:;
 }
 .theme-switch-wrapper {
   display: flex;
@@ -631,6 +639,7 @@ padding-top: 130px;
     margin-left: 10px;
     font-size: 1rem;
   }
+
 }
 .theme-switch {
   display: inline-block;
@@ -697,3 +706,17 @@ h1 {
    background-color: var(--bg-color);
    color: var(--font-color);
  }
+ .title .title-blue,.services h5 {
+  color:var(--textcol);
+ }
+.services h5,#utube{
+   color:var(--textcol1);
+
+}
+.defination .media h5,.pp h1,.sc h1,.hk h1,{
+  color:var(--textcol2);
+
+}
+.defination-small {
+  background-color: var(--bg-color);
+}
