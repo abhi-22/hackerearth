@@ -57,12 +57,19 @@
     margin-bottom: 0;
     margin-right: 25px;
   }
+  .row1 p{
+    max-height: 500px;
+    margin-bottom: 60px;
+  }
 }
 
 /*-----------------------------------
     Medium devices (tablets, 768px and up)
 ------------------------------------*/
 @media (min-width: 768px) {
+  *{
+    overflow-x: hidden
+  }
   .navbar-brand img {
     width: 130px;
   }
@@ -173,6 +180,22 @@
     align-self: flex-end;
     margin-right: 30px;
   }
+  .pic1 img {
+    width: 220px;
+    margin-top: 70px;
+    height: 300px;
+}
+  .pic2 img {
+  width: 280px;
+  height: 300px;
+  padding-top: 70px;
+}
+  .pa p{
+  padding-top: 10px;
+}
+  .mona{
+  max-width: 900px;
+}
 }
 
 /*-----------------------------------
@@ -201,6 +224,23 @@
   .title h1 {
     font-size: 48px;
   }
+  .row1 p{
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  .pa p{
+    padding-top: 90px;
+  }
+  .pic1 img {
+    width: 270px;
+    margin-top: 30px;
+    height: 270px;
+}
+.pic2 img {
+    width: 280px;
+    height: 280px;
+    padding-top: 30px;
+}
 }
 
 /*-----------------------------------

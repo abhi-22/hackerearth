@@ -363,7 +363,7 @@ padding: 25px;
 }
 .button1{
   vertical-align: bottom;
-  position:absolute; 
+  position:absolute;
 }
 }
 .app_car_ind{
@@ -605,6 +605,9 @@ text-align: left;
 }
 .pa p{
 padding-top: 130px;
+}
+.btn1{
+  margin-top: 5px;
 }
 /* Dark mode code begins*/
 
