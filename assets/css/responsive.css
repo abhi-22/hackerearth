@@ -67,9 +67,6 @@
     Medium devices (tablets, 768px and up)
 ------------------------------------*/
 @media (min-width: 768px) {
-  *{
-    overflow-x: hidden
-  }
   .navbar-brand img {
     width: 130px;
   }
