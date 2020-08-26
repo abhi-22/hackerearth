@@ -217,6 +217,13 @@
 .defination-small{
   width: 200px;
 }
+.mona iframe{
+  width: 550px;
+}
+.sc iframe{
+  width: 450px;
+  margin-top: 40px;
+}
 }
 
 /*-----------------------------------
