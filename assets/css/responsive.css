@@ -52,6 +52,12 @@
     overflow: hidden;
     border-radius: 10px;
   }
+  .pic2 img{
+    width: 200px;
+  }
+  .pic2{
+    margin-left: 90px;
+  }
 }
 
 /*-----------------------------------
