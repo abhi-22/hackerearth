@@ -49,7 +49,7 @@ header::after {
 }
 
 .hero {
-  background: url("../images/hero-bg2.jpg") no-repeat center;
+  background: url("../images/hero-bg3.jpg") no-repeat center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -378,8 +378,11 @@ padding: 25px;
   vertical-align: bottom;
   position:absolute;
 }
+.music_btn{
+  margin-top: 5px;
 }
-.app_car_ind{
+
+#app_car_ind{
   position: relative;
 }
 
@@ -483,18 +486,17 @@ text-align: left;
   font-size: 13px;
 }
 }
-@media (min-width:577px and max-width:991px){
+/* @media (min-width:577px and max-width: 991px){
 #youtube iframe{
   width: 300px;
-}
+} */
 #pic1{
   width: 200px;
 }
-}
 @media (min-width: 992px) {
   .card {
-  \***background-color: transparent;
-  border: none;***\
+  background-color: transparent;
+  border: none;
 }
 
 .card-img {
@@ -574,7 +576,6 @@ text-align: left;
 }
 .m-content p{
   color: #fff;
-  text-height:1.25rem;
   padding-top: 10px;
   margin-bottom: 15px;
 }
@@ -641,22 +642,21 @@ padding-top: 130px;
   --bg-color:#15040B;
   --heading-color: #818cab;
   --img: url("../images/dark.bg.jpg") no-repeat center;
-  --textcol: #F1F112;
+  --textcol:#F3712B ;
   --textcol1:#F9A96A ;
   --textcol2:#6AEEF9 ;
   --textcol3:#b34d4d;
-  --textcol4:;
 }
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
-
+}
   em {
-    margin-left: 10px;
-    font-size: 1rem;
+    margin-left:10px;
+    font-size:1rem;
   }
 
-}
+
 .theme-switch {
   display: inline-block;
   height: 34px;
@@ -729,10 +729,18 @@ h1 {
    color:var(--textcol1);
 
 }
-.defination .media h5,.pp h1,.sc h1,.hk h1,{
-  color:var(--textcol2);
+/* .defination .media h5,.pp h1,.sc h1,.hk h1,{
+  color:var(--font-color);
 
-}
+} */
 .defination-small {
   background-color: var(--bg-color);
+}
+.quote{
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+#foot_c{
+  background-color: var(--bg-color);
+  color: var(--font-color);
 }
