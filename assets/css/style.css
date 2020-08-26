@@ -14,6 +14,12 @@ header a {
 .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
     color:#BC7DFB;
 }
+#gldn{
+	padding-left:15px;
+}
+#gldn p{
+	padding-left:10px;
+}
 header::after {
   content: "";
   width: 100%;
