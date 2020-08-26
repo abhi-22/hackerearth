@@ -1,7 +1,25 @@
+@media (max-width:350px){
+  .pic1 img,.pic2 img{
+    max-width: 240px;
+
+  }
+  .row1 h1{
+    margin-top: 20px;
+  }
+  .row1 p{
+    margin-bottom: 550px;
+  }
+  .scr{
+
+  }
+}
+
+
+
 /*-----------------------------------
     Extra Small devices (landscape phones, 576px and up)
 ------------------------------------*/
-@media (max-width:575px) {
+@media (min-width:351px) {
   .mona{
     padding-bottom: 20px;
 
@@ -193,6 +211,12 @@
   .mona{
   max-width: 900px;
 }
+.defination-big{
+  width: 350px;
+}
+.defination-small{
+  width: 200px;
+}
 }
 
 /*-----------------------------------
@@ -229,14 +253,16 @@
     padding-top: 120px;
   }
   .pic1 img {
-    width: 270px;
-    margin-top: 30px;
+    width: 300px;
+    margin-top: 10px;
     height: 270px;
 }
 .pic2 img {
-    width: 280px;
-    height: 280px;
-    padding-top: 30px;
+  width: 350px;
+  height: 300px;
+  padding-top: 0px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
 }
 }
 
@@ -262,5 +288,8 @@
     right: 0;
     height: 100%;
     padding: 75px 0;
+  }
+  .defination-small{
+    width: 300px;
   }
 }
