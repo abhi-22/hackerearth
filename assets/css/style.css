@@ -378,8 +378,8 @@ padding: 25px;
   vertical-align: bottom;
   position:absolute;
 }
-}
-.app_car_ind{
+
+#app_car_ind{
   position: relative;
 }
 
@@ -735,4 +735,8 @@ h1 {
 }
 .defination-small {
   background-color: var(--bg-color);
+}
+.quote{
+  background-color: var(--bg-color);
+  color: var(--font-color);
 }
