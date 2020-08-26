@@ -252,10 +252,18 @@ header::after {
     font-size: 20px;
     margin-bottom: 0;
 }
+.writer{
+  margin-left: 10px;
+    font-size: 23px;
+    font-weight: 600;
+}
 .back{
   margin-top: 15px;
 }
 /*******************************application page***********************************************************/
+.nature{
+  height: 285px;
+}
 .f_c_l{
   margin-top: 100px;
   margin-bottom: 50px;
@@ -486,10 +494,6 @@ text-align: left;
   font-size: 13px;
 }
 }
-/* @media (min-width:577px and max-width: 991px){
-#youtube iframe{
-  width: 300px;
-} */
 #pic1{
   width: 200px;
 }
@@ -625,9 +629,6 @@ padding-top: 130px;
 }
 /* Dark mode code begins*/
 
-/* Dark mode code begins*/
-
-
 :root {
   --primary-color: #302AE6;
   --secondary-color: #536390;
@@ -729,10 +730,6 @@ h1 {
    color:var(--textcol1);
 
 }
-/* .defination .media h5,.pp h1,.sc h1,.hk h1,{
-  color:var(--font-color);
-
-} */
 .defination-small {
   background-color: var(--bg-color);
 }
