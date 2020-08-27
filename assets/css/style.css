@@ -267,6 +267,20 @@ header::after {
   margin-top: 15px;
 }
 /*******************************application page***********************************************************/
+#txt1{
+  padding-bottom: 15px;
+
+}
+#txt2{
+  padding-bottom: 45px;
+}
+#txt3{
+  padding-bottom: 30px;
+}
+#bt2{
+  padding-top: 10px;
+  margin-top: 10px;
+}
 .nature{
   height: 285px;
 }
