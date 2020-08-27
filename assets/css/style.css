@@ -377,6 +377,15 @@ padding: 25px;
 #nature{
   display: none;
 }
+.nature1 img{
+  width: 450px;
+    height: 150px;
+    padding-left: 100px;
+}
+.nature2 img{
+  height: 180px;
+    width: 400px;
+}
 .app_img{
   max-width: 290px;
    max-width: 290px;
@@ -552,7 +561,7 @@ text-align: left;
 
 .defination .media h5 {
   text-transform: uppercase;
-  color: #26264b;
+  color:var(--textcol1);
 }
 
 .defination .btn {
