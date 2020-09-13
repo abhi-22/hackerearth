@@ -407,6 +407,7 @@ padding: 25px;
 .app_car{
   height: 300px;
   width: 75%;
+overflow: scroll;
 }
 #archi_btn{
   margin-bottom: 5px;
