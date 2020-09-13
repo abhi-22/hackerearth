@@ -229,9 +229,16 @@
 .mona iframe{
   width: 550px;
 }
-#un iframe{
+#un img{
   width: 450px;
   margin-top: 40px;
+}
+#haylock img{
+  height: 150px;
+    width: 250px;
+}
+#scale img{
+  height: 210px;
 }
 }
 
