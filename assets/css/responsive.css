@@ -101,7 +101,7 @@
     margin-right: 12px;
   }
   .navbar-collapse .nav-link {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     position: relative;
   }
   .navbar-collapse .nav-link::before {
@@ -231,7 +231,7 @@
 }
 #un img{
   width: 220px;
-  
+
 }
 #haylock img{
   height: 150px;
